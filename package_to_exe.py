@@ -13,13 +13,13 @@ def package_directory_to_exe():
     # Get the current directory
     directory = os.getcwd()
 
-    # Check if the CSV file exists
+    # Check if the CSV file exists - Replace this with any other files needed for main.py file to run
     csv_file = 'master_donor.csv'
     if not os.path.exists(csv_file):
         print(f"{csv_file} not found in the directory.")
         return
 
-    # Ensure donor_search_gui.py exists
+    # Ensure donor_search_gui.py exists # replace this with you main.py file 
     main_script = 'donor_search_gui.py'
     if not os.path.exists(main_script):
         print(f"{main_script} not found in the directory.")
