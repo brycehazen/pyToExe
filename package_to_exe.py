@@ -19,7 +19,7 @@ def package_directory_to_exe():
         print(f"{csv_file} not found in the directory.")
         return
 
-    # Ensure donor_search_gui.py exists # replace this with you main.py file 
+    # Ensure donor_search_gui.py exists # replace this with your main.py file 
     main_script = 'donor_search_gui.py'
     if not os.path.exists(main_script):
         print(f"{main_script} not found in the directory.")
